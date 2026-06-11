@@ -8,20 +8,20 @@ Produce two Visio deliverables based on the public rocketmortgage.com website:
 ## Diagrams
 
 ### Site Map
-![Site Map](01_Sitemap.drawio.png)
-*Full reference: [01_Sitemap.md](01_Sitemap.md)*
+[![Site Map](01_Sitemap.drawio.png)](01_Sitemap.drawio.svg)
+*Full reference: [01_Sitemap.md](01_Sitemap.md)* — click image for full-size, zoomable version
 
 ### Purchase Flow
-![Purchase Flow](02_User_Flow_Purchase.drawio.png)
-*Full reference: [02_User_Flow_Purchase.md](02_User_Flow_Purchase.md)*
+[![Purchase Flow](02_User_Flow_Purchase.drawio.png)](02_User_Flow_Purchase.drawio.svg)
+*Full reference: [02_User_Flow_Purchase.md](02_User_Flow_Purchase.md)* — click image for full-size, zoomable version
 
 ### Refinance Flow
-![Refinance Flow](03_User_Flow_Refinance.drawio.png)
-*Full reference: [03_User_Flow_Refinance.md](03_User_Flow_Refinance.md)*
+[![Refinance Flow](03_User_Flow_Refinance.drawio.png)](03_User_Flow_Refinance.drawio.svg)
+*Full reference: [03_User_Flow_Refinance.md](03_User_Flow_Refinance.md)* — click image for full-size, zoomable version
 
 ### Research / Calculator Flow
-![Research Flow](04_User_Flow_Research.drawio.png)
-*Full reference: [04_User_Flow_Research.md](04_User_Flow_Research.md)*
+[![Research Flow](04_User_Flow_Research.drawio.png)](04_User_Flow_Research.drawio.svg)
+*Full reference: [04_User_Flow_Research.md](04_User_Flow_Research.md)* — click image for full-size, zoomable version
 
 ## Scope
 - Source: https://www.rocketmortgage.com (public marketing site, no login required for mapping)
