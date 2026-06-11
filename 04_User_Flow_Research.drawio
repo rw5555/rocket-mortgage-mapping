@@ -1,0 +1,192 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Research Flow" id="research1">
+    <mxGraphModel dx="729" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3340" pageHeight="820" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pool" parent="1" style="swimlane;startSize=30;horizontal=1;html=1;fontSize=15;fontStyle=1;" value="Research / Calculator Journey" vertex="1">
+          <mxGeometry height="750" width="3240" x="30" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lane0" parent="pool" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;fillColor=#f5f5f5;startSize=40;" value="Visitor" vertex="1">
+          <mxGeometry height="180" width="3240" as="geometry" />
+        </mxCell>
+        <mxCell id="s1" parent="lane0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" value="Visitor lands on&lt;br&gt;Home, mortgage rates,&lt;br&gt;or Learn/blog article" vertex="1">
+          <mxGeometry height="60" width="160" x="200" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s3" parent="lane0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=15;" value="Selects intent&#xa;(e.g., buying +&#xa;researching)" vertex="1">
+          <mxGeometry height="60" width="160" x="580" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s5" parent="lane0" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;" value="Exits site /&#xa;navigates elsewhere&#xa;(bounce)" vertex="1">
+          <mxGeometry height="60" width="160" x="910" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s6" parent="lane0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" value="Clicks &#39;Explore all&#xa;calculators&#39; or a&#xa;specific calculator" vertex="1">
+          <mxGeometry height="60" width="160" x="1200" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s9" parent="lane0" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;" value="Visitor leaves&#xa;(soft conversion&#xa;opportunity lost)" vertex="1">
+          <mxGeometry height="60" width="160" x="1800" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lane1" parent="pool" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;fillColor=#f5f5f5;startSize=40;" value="Marketing Site /&#xa;Content" vertex="1">
+          <mxGeometry height="180" width="3240" x="10" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" parent="lane1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" value="Displays &#39;Build your&#xa;estimate&#39; widget" vertex="1">
+          <mxGeometry height="60" width="160" x="400" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s10" parent="lane1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;" value="End: Lead captured&#xa;(rate alerts email,&#xa;no full application)" vertex="1">
+          <mxGeometry height="60" width="160" x="1800" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" edge="1" parent="lane1" source="d1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=15;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="No">
+          <mxGeometry relative="1" x="-0.0847" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="980" y="-60" />
+            </Array>
+            <mxPoint x="990" y="150" as="sourcePoint" />
+            <mxPoint x="980" y="-60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1ASCCbj4eOxsQCQttlS-56" parent="lane1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" value="Arrives via Learn/&#xa;education article&#xa;(alternate entry path)" vertex="1">
+          <mxGeometry height="60" width="160" x="2150" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t1ASCCbj4eOxsQCQttlS-57" parent="lane1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" value="Article shows embedded CTAs &amp;amp; related article links" vertex="1">
+          <mxGeometry height="60" width="160" x="2350" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t1ASCCbj4eOxsQCQttlS-61" edge="1" parent="lane1" source="t1ASCCbj4eOxsQCQttlS-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=15;" target="t1ASCCbj4eOxsQCQttlS-57" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1ASCCbj4eOxsQCQttlS-58" parent="lane1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;" value="Clicks related&#xa;article?" vertex="1">
+          <mxGeometry height="70" width="140" x="2550" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="t1ASCCbj4eOxsQCQttlS-62" edge="1" parent="lane1" source="t1ASCCbj4eOxsQCQttlS-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=15;" target="t1ASCCbj4eOxsQCQttlS-58" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1ASCCbj4eOxsQCQttlS-63" edge="1" parent="lane1" source="t1ASCCbj4eOxsQCQttlS-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=15;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="Yes (loops within&#xa;Learn content)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2620" y="160" />
+              <mxPoint x="2420" y="160" />
+            </Array>
+            <mxPoint x="2420" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1ASCCbj4eOxsQCQttlS-59" parent="lane1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;" value="Clicks CTA?" vertex="1">
+          <mxGeometry height="70" width="140" x="2750" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="t1ASCCbj4eOxsQCQttlS-64" edge="1" parent="lane1" source="t1ASCCbj4eOxsQCQttlS-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=15;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t1ASCCbj4eOxsQCQttlS-59" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1ASCCbj4eOxsQCQttlS-66" edge="1" parent="lane1" source="t1ASCCbj4eOxsQCQttlS-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=15;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.438;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" target="t1ASCCbj4eOxsQCQttlS-57" value="No (continues&#xa;browsing)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2820" y="20" />
+              <mxPoint x="2420" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="estimateChatNote" parent="lane1" style="shape=note;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;size=20;" value="&lt;span style=&quot;font-family: &amp;quot;Anthropic Sans&amp;quot;, system-ui, &amp;quot;Segoe UI&amp;quot;, Roboto, Helvetica, Arial, sans-serif; font-size: 14px; text-align: start;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(226, 225, 218), rgb(255, 255, 255));&quot;&gt;After this step, expect an AI chat assistant. User to click through options.&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="220" x="680" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="5M_EZ50fG_ojBYQRkRSh-1" edge="1" parent="lane1" source="s4" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="789.58" y="215" as="sourcePoint" />
+            <mxPoint x="790" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lane2" parent="pool" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;fillColor=#f5f5f5;startSize=40;" value="Calculator Tools" vertex="1">
+          <mxGeometry height="180" width="3240" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="s4" parent="lane2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" value="Displays today&#39;s rate&#xa;table (30yr fixed, FHA,&#xa;15yr, VA, etc.)" vertex="1">
+          <mxGeometry height="60" width="160" x="720" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" parent="lane2" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;" value="Wants more&#xa;detail?" vertex="1">
+          <mxGeometry height="70" width="140" x="920" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="s7" parent="lane2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=15;" value="Inputs home price, down payment, term, credit score, location" vertex="1">
+          <mxGeometry height="60" width="160" x="1200" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s8" parent="lane2" style="shape=document;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;" value="Displays estimated&#xa;monthly payment&#xa;breakdown (P&amp;I, taxes,&#xa;insurance, PMI)" vertex="1">
+          <mxGeometry height="60" width="160" x="1400" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" parent="lane2" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;" value="Satisfied /&#xa;wants to act?" vertex="1">
+          <mxGeometry height="70" width="140" x="1600" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="t1ASCCbj4eOxsQCQttlS-60" parent="lane2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;" value="Branches to Calculator&#xa;Tools or Purchase/&#xa;Refinance flow" vertex="1">
+          <mxGeometry height="60" width="160" x="2950" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="lane3" parent="pool" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;fillColor=#f5f5f5;startSize=40;" value="Rocket Application&#xa;(Launchpad)" vertex="1">
+          <mxGeometry height="180" width="3240" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="s11" parent="lane3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;" value="Branches to Purchase&lt;br&gt;flow (Phase 2)" vertex="1">
+          <mxGeometry height="60" width="160" x="1800" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="edge10" edge="1" parent="pool" source="d2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=15;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="s10" value="Sign up for&#xa;rate alerts">
+          <mxGeometry relative="1" x="-0.5173" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1880" y="450" />
+            </Array>
+            <mxPoint x="1880" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1ASCCbj4eOxsQCQttlS-65" edge="1" parent="pool" source="t1ASCCbj4eOxsQCQttlS-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=15;" target="t1ASCCbj4eOxsQCQttlS-60" value="Yes">
+          <mxGeometry relative="1" x="-0.5254" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="pool" source="s3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=15;endArrow=none;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="estimateChatNote" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="90" />
+            </Array>
+            <mxPoint x="800" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chatNote" parent="1" style="shape=note;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;size=20;" value="Rocket Assist chat widget&#xa;(persistent across all pages)&#xa;May answer questions inline,&#xa;or escalate to a live agent" vertex="1">
+          <mxGeometry height="90" width="220" x="80" y="-90" as="geometry" />
+        </mxCell>
+        <mxCell id="edge0" edge="1" parent="1" source="s1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=15;" target="s2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" edge="1" parent="1" source="s2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=15;" target="s3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" edge="1" parent="1" source="s4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=15;" target="d1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" edge="1" parent="1" source="d1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=15;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="s6" value="Yes">
+          <mxGeometry relative="1" x="-0.0396" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1170" y="490" />
+              <mxPoint x="1170" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge6" edge="1" parent="1" source="s6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=15;" target="s7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge7" edge="1" parent="1" source="s7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=15;" target="s8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge8" edge="1" parent="1" source="s8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=15;" target="d2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge9" edge="1" parent="1" source="d2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=15;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="s9" value="Exit">
+          <mxGeometry relative="1" x="-0.6703" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1710" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge11" edge="1" parent="1" source="d2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=15;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="s11" value="Get my estimate /&#xa;See what I qualify for">
+          <mxGeometry relative="1" x="-0.3819" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1710" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
